@@ -1,5 +1,5 @@
 # Lisovyi Hennadii
-<image src="/assets/photo4.jpg" alt="My photo">
+<image src="/assets/photo.jpg" alt="My photo">
 
 ## Contacts
 
@@ -29,3 +29,27 @@ I am a beginner in front-end development. I have completed my training courses a
 Radio engineering faculty, master
 * Skill-UP School - Front End Developer
 * Web Developer Fundamentals at Sololearn
+
+## CODE EXAMPLE
+
+```
+const products = [
+  { name: "Radar", price: 1300, quantity: 4 },
+  { name: "Scanner", price: 2700, quantity: 3 },
+  { name: "Droid", price: 400, quantity: 7 },
+  { name: "Grip", price: 1200, quantity: 9 },
+];
+
+function getAllPropValues(propName) {
+  // Change code below this line
+  const keys = Object.keys (products);
+  const names= [];
+for (const product of keys) {
+  if(product[propName]) {
+  names.push(product[propName])
+    return names;
+  }
+}
+return [];
+}
+```
