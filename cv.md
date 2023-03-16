@@ -41,7 +41,6 @@ const products = [
 ];
 
 function getAllPropValues(propName) {
-  // Change code below this line
   const keys = Object.keys (products);
   const names= [];
 for (const product of keys) {
@@ -53,3 +52,6 @@ for (const product of keys) {
 return [];
 }
 ```
+## LANGUAGE
+* Ukrainian C2
+* English B1
