@@ -1,5 +1,5 @@
 # Lisovyi Hennadii
-!(/assets/photo4.jpg)
+<image src="/assets/photo4.jpg" alt="My photo">
 
 ## Contacts
 
