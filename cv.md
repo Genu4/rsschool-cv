@@ -1,5 +1,4 @@
 # Lisovyi Hennadii
-<image src="/assets/photo.jpg" alt="My photo">
 
 
 ## Contacts
@@ -79,5 +78,5 @@ return [];
 
 
 * Ukrainian C2
-    
+
 * English B1
